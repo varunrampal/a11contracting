@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#2596BE",
+        primary: "#FCD220",
       },
       backgroundImage: {
         "primary-hero":

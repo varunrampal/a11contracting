@@ -66,9 +66,9 @@ export default function HomeSlider() {
               <p className="text-base md:text-lg text-slate-600">
                 {slide.desc}
               </p>
-              <button className="px-5 py-2 rounded-lg bg-[#2596be] text-white text-sm font-semibold shadow hover:bg-[#1b7ea2] transition">
+              {/* <button className="px-5 py-2 rounded-lg bg-[#2596be] text-white text-sm font-semibold shadow hover:bg-[#1b7ea2] transition">
                 Get a Quote
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function HomeSlider() {
             key={i}
             onClick={() => goTo(i)}
             className={`w-3 h-3 rounded-full transition ${
-              i === current ? "bg-[#2596be]" : "bg-gray-300"
+              i === current ? "bg-[#FCD220]" : "bg-gray-300"
             }`}
           />
         ))}
