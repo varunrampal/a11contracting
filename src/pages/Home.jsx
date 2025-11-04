@@ -1,10 +1,18 @@
 import { Link } from "react-router-dom";
+import HomeSlider from "../components/HomeSlider";
+import Introduction from "../components/Introduction";
 
 export default function Home() {
   return (
  <div>
       {/* Hero */}
-      <section className="bg-gradient-to-r from-[#FCB53B] via-[#f9a825] to-[#f57c00] text-white">
+
+      <div className="space-y-10">
+      <HomeSlider />
+      <Introduction/>
+      {/* rest of your sections */}
+    </div>
+      {/* <section className="bg-gradient-to-r from-[#FCB53B] via-[#f9a825] to-[#f57c00] text-white">
         <div className="max-w-6xl mx-auto px-4 py-16 lg:py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-white/80 mb-3">
@@ -51,7 +59,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Highlight sections */}
       <section className="max-w-6xl mx-auto px-4 py-14">
