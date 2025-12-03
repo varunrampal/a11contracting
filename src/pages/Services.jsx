@@ -1,46 +1,85 @@
 export default function Services() {
   const services = [
-    {
-      title: "Soft Landscaping",
-      desc: "Planting, bed prep, topsoil, mulch, rock, turf.",
-    },
-    {
-      title: "Property Cleanups",
-      desc: "Spring/fall cleanups, pruning, hedge trimming, disposal.",
-    },
-    {
-      title: "Restoration Projects",
-      desc: "Native plants, erosion control, site rehab.",
-    },
-    {
-      title: "Skilled Labour Supply",
-      desc: "Landscape labourers, equipment helpers, yard workers.",
-    },
-    {
-      title: "Seasonal / Temporary Workers",
-      desc: "Short-term staffing for busy seasons.",
-    },
-    {
-      title: "Driver / Delivery Helpers",
-      desc: "Assist with loading, unloading, site deliveries.",
-    },
-  ];
+  {
+    title: "Nursery Plants & Wholesale Supply",
+    desc: [
+      "High-quality container-grown plants",
+      "Ideal for landscapers, developers, and municipalities",
+      "Native plants, shrubs, grasses, and trees",
+      "Hedging cedars and ornamental shrubs",
+      "Reliable wholesale supply for restoration projects",
+      "Contract growing for large projects",
+      "Bulk wholesale orders",
+      "Plant loading, delivery options available"
 
+    ]
+  },
+  {
+    title: "Landscaping & Site Work",
+    desc: [
+      "Professional softscaping and material installation for residential and commercial properties",
+      "Planting & transplanting",
+      "Lawn install (sod or seed)",
+      "Mulching & bark installation",
+      "Garden bed prep",
+      "Edging, soil installation",
+      "Property cleanups & strata maintenance"
+    ]
+  },
+   {
+    title: "Labour Support (Human Outsourcing)",
+    desc: [
+      "Reliable seasonal and project-based workers for:",
+      "Plant handling crews",
+      "General landscaping labour",
+      "Driver/helpers for deliveries",
+      "Temporary staffing for peak seasons",
+      
+    ]
+  },
+  {
+    title: "Labour Support (Human Outsourcing)",
+    desc: [
+      "Reliable seasonal and project-based workers for:",
+      "Plant handling crews",
+      "General landscaping labour",
+      "Driver/helpers for deliveries",
+      "Temporary staffing for peak seasons",
+      
+    ]
+  },
+   {
+    title: "Commercial / Municipal Projects",
+    desc: [
+      "We partner with government and private contractors for:",
+      "Riparian & environmental restoration",
+      "Erosion control & slope planting",
+      "Wetland and habitat enhancement projects",
+      "Our experienced crews understand municipal specs and environmental requirements.",
+      
+    ]
+  }
+];
   return (
-    <div className="max-w-6xl mx-auto px-4 py-14">
+    <div className="max-w-8xl mx-auto px-4 py-14">
       <h1 className="text-3xl font-bold mb-3">Our Services</h1>
       <p className="text-slate-600 mb-8">
         We combine landscaping operations with human outsourcing, so you don’t have to manage
         multiple vendors.
       </p>
-      <div className="grid md:grid-cols-3 gap-6">
-        {services.map((s) => (
-          <div key={s.title} className="bg-white rounded-xl border p-5 shadow-sm">
-            <h2 className="font-semibold mb-1">{s.title}</h2>
-            <p className="text-sm text-slate-600">{s.desc}</p>
-          </div>
+   <div className="grid md:grid-cols-5 gap-6">
+  {services.map((s) => (
+    <div key={s.title} className="bg-white rounded-xl border p-5 shadow-sm">
+      <h2 className="font-semibold mb-1">{s.title}</h2>
+
+      <ul className="text-sm text-slate-600 list-disc pl-5 space-y-1">
+        {s.desc.map((point, i) => (
+          <li key={i}>{point}</li>
         ))}
-      </div>
+      </ul>
+    </div>
+  ))}
+</div>
     </div>
   );
 }

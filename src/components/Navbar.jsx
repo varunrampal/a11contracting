@@ -5,8 +5,8 @@ import logo from "../assets/A11-Contracting-Logo.png";
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
-  { to: "/landscaping", label: "Landscaping" },
-  { to: "/staffing", label: "Human Outsourcing" },
+  // { to: "/landscaping", label: "Landscaping" },
+  // { to: "/staffing", label: "Human Outsourcing" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ];
@@ -70,12 +70,12 @@ export default function Navbar() {
             {link.label}
           </NavLink>
         ))}
-        <Link
+        {/* <Link
           to="/contact"
           className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-black hover:bg-brand-dark"
         >
           Get Quote
-        </Link>
+        </Link> */}
       </nav>
     </div>
     {open && (

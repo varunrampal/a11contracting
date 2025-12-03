@@ -62,25 +62,25 @@ export default function Home() {
       </section> */}
 
       {/* Highlight sections */}
-      <section className="max-w-6xl mx-auto px-4 py-14">
+      <section className="max-w-6xl mx-auto px-4 py-5">
         <h2 className="text-2xl font-bold mb-6 text-slate-900">What we do</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
-            <h3 className="font-semibold mb-2 text-slate-900">Landscaping &amp; Site Work</h3>
+            <h3 className="font-semibold mb-2 text-slate-900">Nursery Plants & Wholesale Supply</h3>
             <p className="text-sm text-slate-600">
-              Planting, lawn install, mulching, softscaping, cleanups, strata maintenance.
+              PHigh-quality container-grown plants for landscapers, developers, municipalities, and restoration companies.
             </p>
           </div>
           <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
-            <h3 className="font-semibold mb-2 text-slate-900">Human Outsourcing</h3>
+            <h3 className="font-semibold mb-2 text-slate-900">Landscaping & Site Work</h3>
             <p className="text-sm text-slate-600">
-              Temporary labour, seasonal crews, nursery/yard helpers, driver helpers.
+              Professional softscaping and material installation for residential and commercial properties.
             </p>
           </div>
           <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
-            <h3 className="font-semibold mb-2 text-slate-900">Commercial / Municipal</h3>
+            <h3 className="font-semibold mb-2 text-slate-900">Labour Support (Human Outsourcing)</h3>
             <p className="text-sm text-slate-600">
-              We work with government &amp; private contractors for restoration and landscaping.
+             Reliable seasonal and project-based workers
             </p>
           </div>
         </div>

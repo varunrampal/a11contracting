@@ -6,20 +6,20 @@ import slide3 from "../assets/images/Slider-Home-img-3.jpg"
 const slides = [
   {
     id: 1,
-    title: "Native & Ornamental Plants",
-    desc: "Largest selection of trees, shrubs, perennials and more.",
+    title: "Nursery Plants & Wholesale Supply",
+    desc: "High-quality container-grown plants for landscapers, developers, municipalities, and restoration companies.",
     img: slide1,
   },
   {
     id: 2,
-    title: "Landscaping & Site work",
-    desc: "Smart outdoor contracting, grading, planting, cleanups.",
+    title: "Landscaping & Site Work",
+    desc: "Professional softscaping and material installation for residential and commercial properties.",
     img: slide2,
   },
   {
     id: 3,
-    title: "A11 Contracting",
-    desc: "At A11 Contracting we strive to provide you with locally grown trees, shrubs & perennials that will thrive in your garden..",
+    title: "Labour Support (Human Outsourcing)",
+    desc: "Reliable seasonal and project-based workers",
     img: slide3,
   },
 ];
@@ -58,7 +58,7 @@ export default function HomeSlider() {
           <div className="relative h-full max-w-6xl mx-auto px-4 flex items-center">
             <div className="bg-white/95 rounded-xl shadow-lg p-6 md:p-8 max-w-md space-y-4">
               <p className="text-xs uppercase tracking-[0.3em] text-slate-500">
-                A11 Contracting
+               A11 FARMS & NURSERY
               </p>
               <h2 className="text-3xl md:text-4xl font-bold leading-tight text-slate-900">
                 {slide.title}
