@@ -58,7 +58,7 @@ export default function HomeSlider() {
           <div className="relative h-full max-w-6xl mx-auto px-4 flex items-center">
             <div className="bg-white/95 rounded-xl shadow-lg p-6 md:p-8 max-w-md space-y-4">
               <p className="text-xs uppercase tracking-[0.3em] text-slate-500">
-               A11 FARMS & NURSERY
+               A11 CONTRACTING LTD
               </p>
               <h2 className="text-3xl md:text-4xl font-bold leading-tight text-slate-900">
                 {slide.title}
