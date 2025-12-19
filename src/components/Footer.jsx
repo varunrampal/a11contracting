@@ -16,7 +16,7 @@ export default function Footer() {
               A11 CONTRACTING
             </h2>
             <p className="text-sm text-slate-500 max-w-xs">
-              Contracting & Farming in the Lower Mainland.
+              Landscaping, construction & staffing in the Lower Mainland.
             </p>
           </div>
         </div>
