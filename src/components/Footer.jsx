@@ -13,7 +13,7 @@ export default function Footer() {
           />
           <div>
             <h2 className="text-lg font-semibold text-slate-900">
-              A11 FARMS & NURSERY
+              A11 CONTRACTING
             </h2>
             <p className="text-sm text-slate-500 max-w-xs">
               Contracting & Farming in the Lower Mainland.
@@ -75,7 +75,7 @@ export default function Footer() {
       {/* bottom strip */}
       <div className="border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} A11 FARMS & NURSERY. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} A11 CONTRACTING LTD. All rights reserved.</p>
           <p className="mt-2 sm:mt-0">Built by A11 Contracting team.</p>
         </div>
       </div>

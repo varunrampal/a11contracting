@@ -40,9 +40,9 @@ export default function Navbar() {
   <div className="bg-white/80 backdrop-blur border-b border-slate-200">
     <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
       <Link to="/" className="flex items-center gap-2">
-        <div className="h-9 w-9 rounded-full bg-brand flex items-center justify-center text-white font-bold text-lg">
+        {/* <div className="h-9 w-9 rounded-full bg-brand flex items-center justify-center text-white font-bold text-lg"> */}
           {/* logo initial if you want */}
-        </div>
+        {/* </div> */}
         <img
           src={logo}
           alt="A11 Contracting"

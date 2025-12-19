@@ -65,18 +65,19 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-4 py-5">
         <h2 className="text-2xl font-bold mb-6 text-slate-900">What we do</h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
-            <h3 className="font-semibold mb-2 text-slate-900">Nursery Plants & Wholesale Supply</h3>
-            <p className="text-sm text-slate-600">
-              PHigh-quality container-grown plants for landscapers, developers, municipalities, and restoration companies.
-            </p>
-          </div>
-          <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
+            <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
             <h3 className="font-semibold mb-2 text-slate-900">Landscaping & Site Work</h3>
             <p className="text-sm text-slate-600">
               Professional softscaping and material installation for residential and commercial properties.
             </p>
           </div>
+          <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
+            <h3 className="font-semibold mb-2 text-slate-900">Contruction</h3>
+            <p className="text-sm text-slate-600">
+              Hardscaping: patios, walkways, retaining walls & driveways.
+            </p>
+          </div>
+        
           <div className="bg-white rounded-xl border p-6 shadow-sm hover:border-primary/50 transition">
             <h3 className="font-semibold mb-2 text-slate-900">Labour Support (Human Outsourcing)</h3>
             <p className="text-sm text-slate-600">

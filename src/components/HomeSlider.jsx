@@ -6,8 +6,8 @@ import slide3 from "../assets/images/Slider-Home-img-3.jpg"
 const slides = [
   {
     id: 1,
-    title: "Nursery Plants & Wholesale Supply",
-    desc: "High-quality container-grown plants for landscapers, developers, municipalities, and restoration companies.",
+    title: "Contruction",
+    desc: "Hardscaping: patios, walkways, retaining walls & driveways.",
     img: slide1,
   },
   {

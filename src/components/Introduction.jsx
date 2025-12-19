@@ -15,14 +15,14 @@ export default function Introduction() {
       Serving Vancouver Area and the Fraser Valley.
       </h1>
       <p className="text-slate-600 mb-5 leading-relaxed">
-        We are a BC-based farming, nursery, and landscaping company specializing in high-quality plant production, softscaping, and reliable labour support for residential, commercial, and municipal projects.
+        We are a BC-based contracting company specializing in landscaping, construction, and reliable labour support for residential, commercial, and municipal projects.
       </p>
       <p className="text-slate-600 mb-5 leading-relaxed">
-        With decades of combined experience in nursery operations, plant handling, and environmental restoration, we understand timelines, specifications, and quality standards required by contractors, developers, and government agencies.
+        With decades of combined experience in landscaping, construction, we understand timelines, specifications, and quality standards required by contractors, developers, and government agencies.
       </p>
       <p className="text-sm text-slate-500 flex items-center gap-2">
         <span className="inline-block h-1 w-6 rounded-full bg-[#000000]" />
-        Reliable crews • Quality-grown plants • Local to Lower Mainland
+        Reliable crews • Quality-construction • Affordable Landscaping • Local to Lower Mainland
       </p>
     </div>
 

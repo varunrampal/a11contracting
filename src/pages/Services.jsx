@@ -1,17 +1,14 @@
 export default function Services() {
   const services = [
   {
-    title: "Nursery Plants & Wholesale Supply",
+    title: "Contruction",
     desc: [
-      "High-quality container-grown plants",
-      "Ideal for landscapers, developers, and municipalities",
-      "Native plants, shrubs, grasses, and trees",
-      "Hedging cedars and ornamental shrubs",
-      "Reliable wholesale supply for restoration projects",
-      "Contract growing for large projects",
-      "Bulk wholesale orders",
-      "Plant loading, delivery options available"
-
+      "Hardscaping: patios, walkways, retaining walls & driveways.",
+      "Fencing, decks, pergolas & outdoor living spaces",
+      "Drainage, grading & site preparation",
+      "Concrete work: sidewalks, curbs, foundations",
+      "Retaining walls & erosion control",
+      "Custom stonework & masonry",
     ]
   },
   {
@@ -37,18 +34,7 @@ export default function Services() {
       
     ]
   },
-  {
-    title: "Labour Support (Human Outsourcing)",
-    desc: [
-      "Reliable seasonal and project-based workers for:",
-      "Plant handling crews",
-      "General landscaping labour",
-      "Driver/helpers for deliveries",
-      "Temporary staffing for peak seasons",
-      
-    ]
-  },
-   {
+ {
     title: "Commercial / Municipal Projects",
     desc: [
       "We partner with government and private contractors for:",
